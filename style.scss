@@ -1,0 +1,154 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$custom-icomoon-font-family}';
+  src:  url('#{$custom-font-path}/#{$custom-icomoon-font-family}.eot?en9mgb');
+  src:  url('#{$custom-font-path}/#{$custom-icomoon-font-family}.eot?en9mgb#iefix') format('embedded-opentype'),
+    url('#{$custom-font-path}/#{$custom-icomoon-font-family}.ttf?en9mgb') format('truetype'),
+    url('#{$custom-font-path}/#{$custom-icomoon-font-family}.woff?en9mgb') format('woff'),
+    url('#{$custom-font-path}/#{$custom-icomoon-font-family}.svg?en9mgb##{$custom-icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$custom-icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-share-reddit {
+  &:before {
+    content: $icon-share-reddit;
+  }
+}
+.icon-share-facebook {
+  &:before {
+    content: $icon-share-facebook;
+  }
+}
+.icon-share-twitter {
+  &:before {
+    content: $icon-share-twitter;
+  }
+}
+.icon-share-linkedin {
+  &:before {
+    content: $icon-share-linkedin;
+  }
+}
+.icon-share-mail {
+  &:before {
+    content: $icon-share-mail;
+  }
+}
+.icon-user {
+  &:before {
+    content: $icon-user;
+  }
+}
+.icon-reddit {
+  &:before {
+    content: $icon-reddit;
+  }
+}
+.icon-arrow-right {
+  &:before {
+    content: $icon-arrow-right;
+  }
+}
+.icon-rss {
+  &:before {
+    content: $icon-rss;
+  }
+}
+.icon-twitter {
+  &:before {
+    content: $icon-twitter;
+  }
+}
+.icon-access-full {
+  &:before {
+    content: $icon-access-full;
+  }
+}
+.icon-mail-full {
+  &:before {
+    content: $icon-mail-full;
+  }
+}
+.icon-instagram {
+  &:before {
+    content: $icon-instagram;
+  }
+}
+.icon-access-open {
+  &:before {
+    content: $icon-access-open;
+  }
+}
+.icon-access-no {
+  &:before {
+    content: $icon-access-no;
+  }
+}
+.icon-media-forward {
+  &:before {
+    content: $icon-media-forward;
+  }
+}
+.icon-media-backward {
+  &:before {
+    content: $icon-media-backward;
+  }
+}
+.icon-facebook2 {
+  &:before {
+    content: $icon-facebook2;
+  }
+}
+.icon-linkedin-branded {
+  &:before {
+    content: $icon-linkedin-branded;
+    color: #007bb5;
+  }
+}
+.icon-reddit-branded {
+  &:before {
+    content: $icon-reddit-branded;
+    color: #ff4500;
+  }
+}
+.icon-twitter-branded {
+  &:before {
+    content: $icon-twitter-branded;
+    color: #1da1f2;
+  }
+}
+.icon-facebook-branded {
+  &:before {
+    content: $icon-facebook-branded;
+    color: #3b5998;
+  }
+}
+.icon-wechat {
+  &:before {
+    content: $icon-wechat;
+  }
+
+  &-branded {
+    @extend .icon-wechat;
+    color: #26cd2f;
+  }
+}
+
